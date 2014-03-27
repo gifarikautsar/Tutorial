@@ -1,0 +1,12 @@
+#Ignore .exe files
+*.exe
+#Ignore .bat files
+*.bat
+#Include .bat only in custom directory
+!custom/*.bat
+#Ignore some folders
+bin/
+obj
+/
+#OS Generated Files
+Thumbs.db
